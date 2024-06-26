@@ -15,7 +15,7 @@ class MainApp extends StatefulWidget {
 }
 
 class _MainAppState extends State<MainApp> {
-  static const apiKey = "249ce72a6487835210d04ef0ee2ac92f";
+  static const apiKey = "your api key";
 
   final WeatherFactory _wf = WeatherFactory(apiKey);
 
